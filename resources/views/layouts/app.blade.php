@@ -26,7 +26,7 @@
                         <a href="" class="p-3">HamoXD</a>
                     </li>
                     <li>
-                        <form action="" method="post" class="p-3 inline">
+                        <form action="{{ route('logout') }}" method="post" class="p-3 inline">
                             @csrf
                             <button type="submit">Logout</button>
                         </form>
